@@ -1,0 +1,409 @@
+/* CSS for header page */
+
+.imageHeaderMain {
+    background-image: url('images/wave-bg.svg');
+    background-repeat:no-repeat;
+    background-size: 2000px;
+    background-position: top; 
+
+}
+
+.headerMain {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:0px;  
+}
+
+    /*block on the left */
+
+.blockOnTheLeft {
+    margin-right: 80px;
+    font-size: 10px;;
+}
+
+.imageOnTheLeft {
+    height:300px;
+    width:300px;
+    margin-top: 25px;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+    /*block on the right */
+
+.blockOnTheRight {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.navItem {
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color:black;
+} 
+
+.hello {
+    font-size: 13px;
+}
+
+.yellowLign {
+    width: 80px;
+}
+
+.icons {
+    display:flex;
+    flex-direction: row; 
+}
+
+.icon {
+    width:15px;
+    height:15px;
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+
+.iAmTitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.iAmSubtitle {
+    margin-top: 15px;
+    font-size: 15px;
+    color:rgb(103, 100, 100)
+}
+
+.hello {
+    margin-bottom: 5px;
+}
+
+
+
+/* CSS for Experiences page */
+
+body {
+    font-family: 'Nunito Sans';
+}
+
+.principalTitle {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+.firstTitle {
+    margin-bottom: 5px;
+    font-size: 25px;   
+}
+
+.ligneJaune {
+    margin-bottom:10px;  
+}
+
+.firstLignBlocks {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px; 
+     
+}
+
+.block {
+    display:flex;
+    flex-direction: column;
+    max-width: 430px;
+    max-height: 600px;
+    margin: 15px;
+    border:solid;
+    border-color: rgb(199, 214, 228);
+    border-radius: 8px;
+}
+
+.titlesAndImage {
+    display:flex;
+    flex-direction: row;
+    background-color: rgb(197, 220, 225);
+    padding: 13px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    margin:0px;
+}
+
+.titles {
+    margin-right: 90px;
+    width: 70%;
+}
+
+.boxImage{
+    height: 43px;
+    width: 20%;  
+}
+
+.image {
+    max-width:100%;
+    max-height:100%;   
+}
+
+.title1 {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.title2 {
+    margin: 2px;
+    font-size: 13px;
+    color: rgb(91, 88, 88);
+}
+
+.paragrapheTotal {
+    padding: 15px;
+    font-size: 15px;
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 40px;
+}
+
+.paragraphTop {
+    margin-top: 15px;
+    margin-bottom: 8px;   
+}
+
+.paragraphBottom {
+    margin-top: 0px;
+    margin-block-end: 2px;
+}
+
+/* Form page */
+
+.principalTitleForm {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+.yellowLignForm {
+   height:15px; 
+}
+
+.blocksForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+
+}
+
+  /* Form page left block */
+
+.blockOnTheLeftForm {
+    display:flex;
+    flex-direction: column;
+    margin-top:50px;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    width: 280px;
+    height: 350px;
+    margin:20px;
+    background-color: rgb(237, 241, 242);
+    padding:30px; 
+}
+
+label {
+    margin: 5px;
+    margin-left: 0px;
+    font-weight: bold;
+    color:rgb(116 113 113);
+}
+
+input, textarea {
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    border:1px solid rgb(218, 215, 215);
+    resize: none;
+}
+
+.button {
+    background-color:rgb(242, 214, 92);
+    width:70px;
+    height:40px;
+    margin-top:30px;
+    border-radius: 15px;
+}
+
+
+
+    /* Form page right block */
+
+.blockOnTheRightForm {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    margin-left:0px;
+    margin-top:50px;
+    
+}
+
+.TextBlockOnTheRightForm {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.labelInputForm {
+    display:flex;
+    flex-direction: row;
+    font-size: 15px;  
+}
+
+.informationForm{
+   font-weight:bold;
+   margin-left: 12px;
+}
+
+
+
+/* home */
+
+.mainHomeDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.blockOnTheLeftHome {
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 100px;
+}
+
+.secondDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.homeParagraph {
+    flex-wrap: wrap;
+    line-height:25px;
+}
+
+.imageHome {
+    border-radius: 20px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.board {
+    margin-bottom: 9px;
+    margin-top: 9px;
+}
+
+.div1 {
+    margin-right: 16px;;
+}
+
+.blockOnTheRightHome {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    /* Home, part on the bottom */
+
+
+.blockOnTheBottom {
+    margin-bottom: 100px;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.textPresentation {
+    text-align: center;
+    width:600px;
+}
+
+.imagesAndText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.imagesIconHome {
+    height:70px;
+    width:70px;
+}
+
+.imagesIconTextHome {
+   font-weight: bold;
+    
+}
+
+.images {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+/*footer */
+footer {
+    background-color: rgb(237, 241, 241);
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+
+.ulFooter {
+    list-style-type: none;
+    margin:0px;
+    display:inline-flex;
+    padding-inline-start: 0px;
+    margin-bottom:20px;  
+}
+
+.iconFooter {
+    height:15px;
+    width:15px;
+    float:left;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+ 
+
